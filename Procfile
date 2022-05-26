@@ -1,1 +1,1 @@
-web: waitress-serve --listen=*:8000 taskmate.taskmate.wsgi:application
+web: waitress-serve --listen=*:8080 taskmate.taskmate.wsgi:application
