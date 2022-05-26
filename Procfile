@@ -1,1 +1,1 @@
-web: waitress-serve taskmate.wsgi:application
+web: waitress-serve django-project.taskmate.taskmate.wsgi:application
