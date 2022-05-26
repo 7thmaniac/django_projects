@@ -1,6 +1,6 @@
 from waitress import serve
 
-from taskmate.taskmate.wsgi import application
+from django-project.taskmate.taskmate.wsgi import application
 
 if __name__ == '__main__':
     serve(application)
