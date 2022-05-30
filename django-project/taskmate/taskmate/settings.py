@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'taskmate.taskmate.wsgi.application'
+WSGI_APPLICATION = 'taskmate.wsgi.application'
 
 
 # Database
