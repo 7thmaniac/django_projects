@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'taskmate.taskmate.urls'
+ROOT_URLCONF = 'taskmate.urls'
 
 TEMPLATES = [
     {
