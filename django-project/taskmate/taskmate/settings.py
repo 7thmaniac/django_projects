@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'taskmate.urls'
+ROOT_URLCONF = 'taskmate.taskmate.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'taskmate.wsgi.application'
+WSGI_APPLICATION = 'taskmate.taskmate.wsgi.application'
 
 
 # Database
